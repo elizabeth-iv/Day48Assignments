@@ -10,7 +10,7 @@ public class SameOrNah {
         System.out.println("Enter another word:");
             String two = scanner.nextLine();
 
-        if (one == two) {
+        if (one.equals(two)) {
             System.out.println("The words are the same");
         }else {
             System.out.println("The words are different");
